@@ -18,7 +18,7 @@ The first thing to note is that a worksheet is made up of "cells." These are whe
 ︡1cfd9f95-e591-403e-8d16-fc77aea42917︡{"html":"<center><h1>Sage Beginner's Workshop</h1></center>\n\n<p>\nThis is an introduction to the basic functionality of Sage, with an emphasis on seeing how to handle a worksheet and how to get more detailed help. We will point out a little bit of the power that Sage has hiding in it, but this is <b>not</b> a full-fledged tutorial. Down at the bottom of the page you will find links to some more resources.\n</p>\n\n<hr />\n\nNote that this worksheet is based upon an earlier one by Theron Hitchman. That worksheet, <a href=\"http://uni.sagenb.org/home/pub/0/\">available here</a>, was designed for the Sage Notebook interface. This one is written with the SageMathCloud worksheet style in mind. Other contributors include: Harald Schilly, Gustav Delius.\n\n<hr />\n\n<h2>Worksheet Basics</h2>\n\nThe first thing to note is that a worksheet is made up of \"cells.\" These are where you will do your programming. To evaluate a cell, you press [Shift]+[Enter]. Try it now in the cell below. Add 5 and 4."}︡
 ︠8cd31a74-73ca-434a-996d-b2339b8f3160︠
 5+4
-︡d2750b35-fd98-4d38-9fa4-262b63c205ac︡
+︡926e8dc0-c41b-4f35-b6d5-786ab0289c20︡{"stdout":"9\n"}︡
 ︠df84264c-fbe7-43b9-97a2-45e094363aebi︠
 %html
 <p>
@@ -44,6 +44,9 @@ Try it now. Make a new cell between the ones below.
 ︠22707caf-a45b-4edc-adeb-d3f6ce8ad86c︠
 print('Do not touch this cell. Make a new one just below it!')
 ︡54548497-c025-473e-8185-17180a5e7674︡{"stdout":"Do not touch this cell. Make a new one just below it!\n"}︡
+︠f481fe60-a185-45c9-88d3-2603a0778dda︠
+print('This is a new cell')
+︡3c02e487-74dd-43e2-a8b0-359908c29966︡{"stdout":"This is a new cell\n"}︡
 ︠8dc9d3db-d6a8-4214-ae0a-6cc8429acfd0i︠
 %md
 It is possible to delete input cells, too. To do so, simply empty the cell and press [Backspace] or [Delete] in the active, empty cell. Try deleting a one or two of the cells just below.
@@ -71,12 +74,14 @@ After evaluation, the input for a Markdown or html cell will automatically hide.
 
 [md]: http://daringfireball.net/projects/markdown/syntax "Markdown Syntax Page"
 ︡16d7f3d4-8263-47b5-99ae-9f4b725178d6︡{"html":"<p>It is useful to annotate your work by typing text right into the page. To do this, you can use two methods.</p>\n\n<ul>\n<li><p>HTML: If you open a cell with the &#8220;decorator&#8221; <kbd>%html</kbd> as the first line, the worksheet will evaluate the rest of the cell by parsing it as html.</p></li>\n<li><p>Markdown: If you open a cell with the &#8220;decorator&#8221; <kbd>%md</kbd> as the first line, the worksheet will evaluate that cell by interpreting the input following the Markdown specification, converting it to html, and displaying the html as output.</p></li>\n</ul>\n\n<p>If you don&#8217;t know either, basic <a href=\"http://daringfireball.net/projects/markdown/syntax\" title=\"Markdown Syntax Page\">Markdown</a> is easy to learn. Even if you don&#8217;t learn it, paragraphs typed in markdown will display roughly how you want them on this page.</p>\n\n<p>After evaluation, the input for a Markdown or html cell will automatically hide. To reopen the input for editing, simply double click the displayed output. The text in this page has been generated with a mix of these two approaches, so you can double click them to see some examples of how this works.</p>\n"}︡
-︠fc56969e-9a03-41d4-9ac9-d5e837a8981a︠
+︠b8102f45-1c77-4c91-be8e-d2492416a118︠
+︠38d294a2-c637-4cdd-9759-91bc932cc189︠
 
-︡f4eae00a-c306-4656-b36f-c8f8fb5b82a8︡
-︠3a466ffb-bc4c-490e-b66b-b1221d79b1f3︠
-
-︡25ee79c9-48bd-4b34-8630-79a02a53c8ef︡
+︠3a466ffb-bc4c-490e-b66b-b1221d79b1f3i︠
+%md h1 Random Walk  h3 Sunil Ramchandani
+1. The plot Sinx function generates a sine graph
+2. The show cube function generates a cube
+︡e9635861-18e6-4ca8-bb5c-6c4d97dc0026︡{"md":"h1 Random Walk  h3 Sunil Ramchandani"}︡{"stderr":"Error in lines 2-2\nTraceback (most recent call last):\n  File \"/projects/08679d48-ce77-4f2a-9e53-e78f47da3e0d/.sagemathcloud/sage_server.py\", line 879, in execute\n    exec compile(block+'\\n', '', 'single') in namespace, locals\n  File \"<string>\", line 1\n    RealNumber('1.') The plot Sinx function generates a sine graph\n                       ^\nSyntaxError: invalid syntax\n"}︡
 ︠e37895f9-f78b-4ffe-b32d-be1cbd5e1ef7i︠
 %html
 <h2>Sage as a Calculator</h2>
